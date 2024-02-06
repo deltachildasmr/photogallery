@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photogallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=FontName&display=swap">
+
+</head>
+<body>
+    <header>
+        <h1>TK PHOTOGRAPHY</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>ABOUT</h2>
+            <p>Hello! I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p>
+        </section>
+
+        
+        <section id="gallery">
+            <h2>GALLERY</h2>
+            <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+        </section>
+
+        <div class="row">
+            <div class="column">
+                <img src="images/Chile.png" alt="Image 1">
+                
+            </div>
+            <div class="column">
+                <img src="images/Guatemala.png" alt="Image 2">
+               
+            </div>
+            <div class="column">
+                <img src="images/Hawaii.png" alt="Image 3">
+                
+            </div>
+        </div>
+                
+        <div class="row longer-row">
+            <div class="column">
+                <img src="images/Iran.png" alt="Longer Image 4">
+            </div>
+            <div class="column">
+                <img src="images/Ireland.png" alt="Longer Image 5">
+            </div>
+            <div class="column">
+                <img src="images/Italy.png" alt="Longer Image 6">
+            </div>
+        </div>
+           
+        <div class="row">
+            <div class="column">
+                <img src="images/Moab-Desert.png" alt="Image 7">
+                
+            </div>
+            <div class="column">
+                <img src="images/Rocky-Mountains.png" alt="Image 8">
+                
+            </div>
+            <div class="column">
+                <img src="images/Switzerland.png" alt="Image 9">
+                
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img src="images/UK.png" alt="Image 10">
+                
+            </div>
+            <div class="column">
+                <img src="images/USA.png" alt="Image 11">
+                
+            </div>
+            <div class="column">
+                <img src="images/Wyoming.png" alt="Image 12">
+                
+            </div>
+        </div>
+        
+        
+        
+    </main>
+    <div class="contact-form">
+        <h2>CONTACT</h2>
+       <h3><p>Please fill out this form, and we'll get back to you soon.</p></h3>
+    </div> 
+    <div class="contact-form"> 
+        <form action="action_page.php" method="post">
+            <label for="name">NAME:</label>
+            <input type="text" id="name" name="name" placeholder="YOUR FULL NAME"  required>
+            
+            <label for="email">EMAIL:</label>
+            <input type="email" id="email" name="email" placeholder="ENTER YOUR EMAIL ADDRESS" required>
+            
+            <label for="message">MESSAGE:</label>
+           <input type="message" id="message" name="message" rows="4" placeholder="WHAT CAN I HELP YOU WITH?" required>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
+    
+    <section>
+
+    <footer>
+    <p>COPYRIGHT 2021 TK PHOTOGRAPHY</p>  
+        
+    </footer>
+    </section>
+   
+</body>
+</html>
